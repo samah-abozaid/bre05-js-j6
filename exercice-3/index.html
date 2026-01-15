@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+
+<form action="#" method="post">
+  <!-- Champ texte -->
+  <label for="nom">Nom :</label><br>
+  <input type="text" id="nom" name="nom" required><br><br>
+
+  <!-- Champ select -->
+  <label for="categorie">Catégorie :</label><br>
+  <select id="categorie" name="categorie" required>
+    <option value="">-- Sélectionnez une option --</option>
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+  </select><br><br>
+
+  <!-- Champ textarea -->
+  <label for="message">Message :</label><br>
+  <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+  <button type="submit">Envoyer</button>
+</form>
+</body>
+ <script type="application/javascript" src="index.js"></script>
+</html>
